@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from"react";
 import logo from './logo.svg';
 import Componente from "./components/Componente";
@@ -7,12 +8,19 @@ import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
 import {EventosES6, EventosES7} from "./components/Eventos";
+=======
+import logo from './logo.svg';
+import './App.css';
+>>>>>>> 030113f7c0330f52df2b415cafd7fb5b37e98e10
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         <section>
+=======
+>>>>>>> 030113f7c0330f52df2b415cafd7fb5b37e98e10
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,6 +33,7 @@ function App() {
         >
           Learn React
         </a>
+<<<<<<< HEAD
         </section>
         <section>
           <Componente msg="Hola soy un componente funcional Expresado desde una prop"/>
@@ -53,6 +62,10 @@ function App() {
         </section>
       </header>
       </div>
+=======
+      </header>
+    </div>
+>>>>>>> 030113f7c0330f52df2b415cafd7fb5b37e98e10
   );
 }
 
